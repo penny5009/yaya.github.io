@@ -1,0 +1,281 @@
+
+
+#button {  /*導覽列控制*/
+  text-align: center;
+  font-weight: bolder;
+  color: #FFF;
+  font-family: "cwTeXYen" ;
+  padding-bottom: 12px;
+  height: 30px;
+  padding-top: 12px;
+  font-size: 24px;
+  margin: 0px;
+        }
+    
+#button a {
+    display: block;
+  float: left;
+  width: 150px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#button a:hover{
+  color: #7CCBDC;
+}
+
+#button li {
+  
+  list-style-type: none;
+  letter-spacing: 12px;
+  border-left-width: 1px;
+  
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+#content {
+  font-family: "cwTeXYen";
+  font-size: 14px;
+  line-height: 2em;
+  color: #333;
+  padding: 30px;
+  
+  background-color: #DDE3E3;
+        /* CSS 中 DIV 自己會長到上層 DIV100% 的寬度 (在這裡就是 #wrapper)，所以可不用設定寬度*/
+        }
+body {
+  background-color: #278092;
+  /******跨瀏覽器的底色漸層CSS語法********/ 
+  background:-webkit-gradient(linear, 2% 0%, 0% 100%, from(#00475E), to(#007276));
+  background: -moz-linear-gradient(#00475E, #007276);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#00475E', endColorstr='#007276');
+
+  margin: 0px;
+}
+
+
+
+     
+h1{
+  color: #FFF;
+  font-family: "cwTeXYen";
+  font-size: 30px;
+  margin: 0px;
+
+  
+}
+
+.header-text {
+  font-size: 15px;
+  color: #D2EFF7;
+  font-family: "cwTeXYen";
+  font-weight: bolder;
+  font-style: italic;
+  margin: 0px;
+
+}
+.title-1 {
+  font-size: 18px;
+  line-height: 2em;
+  border-bottom-width: 1px;
+  border-left-width: 12px;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  border-bottom-color: #417C9A;
+  border-left-color: #417C9A;
+  color: #187E95;
+}
+
+.text-s {
+  font-size: 13px;
+  color: #6F6CA1;
+  border-left-width: 2px;
+  border-left-style: dotted;
+  border-left-color: #8081B1;
+  padding-left: 5px;
+  font-weight: bolder;
+}
+#content table {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #278092;
+}
+#content table tr td {
+  padding: 5px;
+  font-size: 12px;
+  line-height: 1.5em;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #278092;
+}
+#content a {
+  color: #278092;
+  text-decoration: none;
+}
+#content a:hover {
+  color: #903;
+  text-decoration: underline;
+}
+.table_title {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #E9F0E0;
+  background-color: #278092;
+}
+
+#content ul li {
+  list-style-image: url(images/arrow_c.jpg);
+}
+
+.floatleft {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.floatright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+ 
+
+
+.clearboth {
+  clear: both;
+}
+    .contentplace
+    {
+      color: #333;
+      padding-top: 180px;
+      padding-bottom: 1200px;
+      padding-left: 100px;
+      padding-right: 100px;
+      background-color: #DDE3E3;
+      height: 600px
+      margin: auto;
+      position: relative;   
+     }
+  .select
+    {
+      display: flex;
+      font-size: 15px;
+      color: white;
+      font-family: "cwTeXYen";
+      text-decoration: none;
+    }
+    .select a
+    {
+      display: block;
+      width: 70px;
+      color: #FFF;
+      text-decoration: none;
+    }
+    .select li 
+    {   
+      padding-left: 10px;
+      padding-right: 5px;
+      text-align: center;
+    }
+    .select a:hover
+    {
+      color: #7CCBDC;
+      text-decoration:underline;
+    }
+
+    .homecontent
+    {
+      background-color: #DDE3E3;
+      font-family: "cwTeXYen";
+    }
+
+  .aaa{
+position: relative;
+}
+.p1{
+  float: left;
+padding-bottom:0px; 
+padding-right: 40px;
+
+width:35%; 
+
+display: block;
+height: auto;
+
+}
+.p2{
+float: left;
+
+ width:33%;padding-bottom: 100px;padding-bottom: 0px;
+
+}
+.p3{
+float: left;
+width:25%;
+height:10%;
+padding-bottom: 0px;
+padding-left: 40px;
+
+
+}
+.p4{
+ padding-top: 20px;
+ padding-right: 40px;
+ padding-bottom: 0px;
+width:35%; 
+  float: left;
+
+}
+.p5{
+padding-top:20px;padding-bottom: 0px;padding-right: 0px;
+width:33%; 
+ float: left;
+   margin: 0px 0px 0px 0px;
+}
+.p6{
+  width:25%; 
+
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding-left: 42px;
+  padding-top: 20px;
+}
+
+.overlay {
+  
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  zoom:  1;
+  width: 35%;
+  height:0;
+  transition: .5s ease;
+}
+.aaa:hover .overlay{
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}  
+
+
+  
+
+
+
+
