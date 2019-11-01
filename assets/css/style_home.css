@@ -428,6 +428,11 @@ h1{
 	background:#000;
 	 font-family:"cwTeXYen";
 }
+
+#contenth h2
+    {
+	color:gold;
+	}
 div.clr {
 color: #fff;
 }
